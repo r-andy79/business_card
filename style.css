@@ -5,3 +5,18 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+body {
+    background: #2C2141;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background: #F8F8F8;
+    border-radius: 16px;
+    width: 624px;
+    margin: 16px;
+}
